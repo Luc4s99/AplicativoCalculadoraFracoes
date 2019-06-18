@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nome</string>
+    <string name="hintNumerador">Numerador</string>
+    <string name="hintDenominador">Denominador</string>
+    <string name="sum">+</string>
+    <string name="sub">-</string>
+    <string name="igu">=</string>
+    <string name="resText">Abaixo será mostrada a resolução passo-a-passo:</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="resGrafica">Aperte abaixo para ser ilustrada a resolução:</string>
+    <string name="demGrafica">Abaixo serão demonstrados os resultados:</string>
+    <string name="demostrar">Demonstrar</string>
+    <string name="voltarDes">Aperte abaixo para voltar para a calculadora</string>
+</resources>
