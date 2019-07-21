@@ -46,10 +46,10 @@ public class ResolucaoActivity extends AppCompatActivity {
                 String result;
 
                 if(oper.equals("+")){
-                    result = "Denominadores iguais:\n\n("+n1+"+"+n2+")/"+d1+" => "+(n1+n2)+"/"+d1+" => "+(float)((n1+n2)/d1)+"";
+                    result = "Denominadores iguais:\n\n("+n1+"+"+n2+")/"+d1+" => "+(n1+n2)+"/"+d1;
                     num = n1 + n2;
                 }else{
-                    result = "Denominadores iguais:\n\n("+n1+"-"+n2+")/"+d1+" => "+(n1-n2)+"/"+d1+" => "+(float)((n1-n2)/d1)+"";
+                    result = "Denominadores iguais:\n\n("+n1+"-"+n2+")/"+d1+" => "+(n1-n2)+"/"+d1;
                     num = n1 - n2;
                 }
 
@@ -68,11 +68,11 @@ public class ResolucaoActivity extends AppCompatActivity {
                 String result;
 
                 if(oper.equals("+")){
-                    result = "Denominadores diferentes:\n\n MMC entre "+d1+" e "+d2+" = "+mmc+"\n\n"+(mmc/d1)*n1+"/"+mmc+" + "+(mmc/d2)*n2+"/"+mmc+" => ("+(((mmc/d1)*n1)+" + "+((mmc/d2)*n2))+")/"+mmc+" =>\n\n "+(((mmc/d1)*n1) + ((mmc/d2)*n2))+"/"+mmc+" => "+(float)(((mmc/d1)*n1) + ((mmc/d2)*n2))/mmc+"";
+                    result = "Denominadores diferentes:\n\n MMC entre "+d1+" e "+d2+" = "+mmc+"\n\n"+(mmc/d1)*n1+"/"+mmc+" + "+(mmc/d2)*n2+"/"+mmc+" => ("+(((mmc/d1)*n1)+" + "+((mmc/d2)*n2))+")/"+mmc+" =>\n\n "+(((mmc/d1)*n1) + ((mmc/d2)*n2))+"/"+mmc;
                     num = ((mmc/d1)*n1) + ((mmc/d2)*n2);
 
                 }else{
-                    result = "Denominadores diferentes:\n\n MMC entre "+d1+" e "+d2+" = "+mmc+"\n\n"+(mmc/d1)*n1+"/"+mmc+" - "+(mmc/d2)*n2+"/"+mmc+" => ("+(((mmc/d1)*n1)+" - "+((mmc/d2)*n2))+")/"+mmc+" =>\n\n "+(((mmc/d1)*n1) - ((mmc/d2)*n2))+"/"+mmc+" => "+(float)(((mmc/d1)*n1) - ((mmc/d2)*n2))/mmc+"";
+                    result = "Denominadores diferentes:\n\n MMC entre "+d1+" e "+d2+" = "+mmc+"\n\n"+(mmc/d1)*n1+"/"+mmc+" - "+(mmc/d2)*n2+"/"+mmc+" => ("+(((mmc/d1)*n1)+" - "+((mmc/d2)*n2))+")/"+mmc+" =>\n\n "+(((mmc/d1)*n1) - ((mmc/d2)*n2))+"/"+mmc;
                     num = ((mmc/d1)*n1) - ((mmc/d2)*n2);
                 }
 

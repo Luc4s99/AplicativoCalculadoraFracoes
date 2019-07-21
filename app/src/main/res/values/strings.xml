@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nome</string>
+    <string name="app_name">Play Fraction</string>
     <string name="hintNumerador">Numerador</string>
     <string name="hintDenominador">Denominador</string>
     <string name="sum">+</string>
